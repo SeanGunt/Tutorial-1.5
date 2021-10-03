@@ -1069,3 +1069,4 @@ Received Import Request.
 Start importing Assets/Scripts/CatController.cs using Guid(a2b4a1593dcc5ef4c993cfa9ef1c1ce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1647f06d0b251769b3217f1a9fbd1e6') in 0.001610 seconds 
   Import took 0.003814 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
