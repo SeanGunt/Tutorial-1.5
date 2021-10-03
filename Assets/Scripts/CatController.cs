@@ -2,8 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Play_Sound : MonoBehaviour
-ublic AudioClip musicClipOne;
+public class CatController : MonoBehaviour
+{
+public AudioClip musicClipOne;
 
 public AudioClip musicClipTwo;
 
@@ -84,5 +85,14 @@ void Update()
           musicSource.loop = false;
 
         }
+    if (Input.GetKey("escape"))
+    
+        {
+
+          Application.Quit();
+
+        }
 
     }
+
+}
